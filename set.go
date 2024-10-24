@@ -1,7 +1,7 @@
 package goset
 
 type SetElementInterface interface {
-	int | string
+	int | int8 | int16 | int32 | int64 | string
 }
 
 // 普通集合
